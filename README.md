@@ -1,0 +1,2 @@
+# hex
+hexagonal game
