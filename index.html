@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Hex</title>
+    <script>
+      //preLoader
+      window.addEventListener('load',function(){
+        document.querySelector('body').classList.add("loaded")  
+      });
+    </script>
+</head>
+
+<body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+      <!-- preloader end -->
+    <div id="line"></div>
+    <div id="buttons">
+      <button id="ready">
+        <span>Ready!</span>
+      </button>
+
+      <button id="reset">
+        <span>New game</span>
+      </button>
+    </div>
+    <!-- buttons end -->
+    <canvas id="canvas"></canvas>
+</body>
+<script src="window.js"></script>
+<script src="classes.js"></script>
+<script src="handle.js"></script>
+<script src="art.js"></script>
+<script src="gamelogic.js"></script>
+<script src="start.js"></script>
+</html>
